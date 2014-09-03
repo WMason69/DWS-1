@@ -1,0 +1,145 @@
+/*------ Document -----*/
+body {
+	margin: 0 auto;
+	padding: 0;
+	font: .75em/1.5em Helvetica, Arial, sans-serif;
+	color: #423B2E;
+	width: 960px;
+	background: #797267;
+}
+	
+/*----- Begin Header Element Styles -----*/
+
+header {
+	background-image: url("../images/header-bg.jpg");
+	width: 960px;
+	padding: 0px;
+	height: 210px;
+	overflow: auto;
+}
+
+h1	{
+	width: 317px;
+	height: 71px;
+	position:relative;
+	top: 45px;
+	left: 60px;
+	float: left;
+	background: no-repeat;
+	background-image: url("../images/logo.gif");
+}
+	
+h1 a	{
+	visibility: hidden;
+}
+	
+	
+/*----- Navigation Styling -----*/
+
+nav {
+	width: 277px;
+	float: right;
+	clear:none;
+	position: relative;
+	right: 80px;
+	top: 80px;
+}
+	
+li {
+	display: inline;
+}
+
+a:link {
+	color: #423B2E;
+	text-decoration: none;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 3px;
+}
+
+a:visited {
+	color: #BF3102;
+}
+
+a:hover {
+	color:#BF3102;
+	font-weight:normal;
+}
+
+a:active {
+	color: #000;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+/*----- Main Content Element Styles -----*/
+
+#main_content {
+	width: 960px;
+	background-image: url("../images/main-content-bg.jpg");
+	overflow: auto;
+}
+	
+p	{
+	margin: 0px 0px 12px 0px;
+}
+
+a	{
+	width: 197px;
+	height: 34px;
+	padding: 40px 0px 5px 25px;
+	z-index: 999;
+}
+	
+#banner {
+	width: 890px;
+	height: 220px;
+	margin: 0px auto;
+	background-image: url("../images/banner.jpg");
+}
+
+section {
+	width: 250px;
+	height: auto;
+	float: left;
+	padding: 0px 20px 45px 25px;
+	background: no-repeat;
+	background-position: left bottom;
+	background-image: url("../images/page-flip.gif");
+}
+	
+h2	{
+	font-size: 1.5em;
+	color: #423B2E;
+	width: 250px;
+	padding: 0px 0px 10px 0px;
+	border-bottom-style: solid;
+	border-width: thin;
+}
+
+#first {
+	margin: 0px 13px 0px 34px;
+	padding: 0px 0px 45px 34px;
+	float: left;
+	clear: none;
+}
+
+.column page-flip {
+	margin: 0px 0px 0px 34px;
+	float: left;
+	clear: left;
+}
+
+footer {
+	width: 960px;
+	height: 77px;
+	color: #423B2E;
+	font-size: .917em;
+	text-align: center;
+	margin: 0px 0px 25px 0px;
+	padding: 92px 0px 0px 0px;
+	background: no-repeat;
+	background-image: url("../images/footer-bg.jpg");
+	clear: both;
+}

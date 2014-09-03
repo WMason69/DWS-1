@@ -40,7 +40,9 @@ p {padding: 0px 20px;
    line-height: 1.3em;
    text-indent: 5px;}
 
-ul {color: #fff;}
+ul {color: #fff;
+	display: inline;
+	margin 4px;}
 
 ol {color: #fff;
 	width: 840px;
@@ -86,9 +88,3 @@ a:active {color: #000;
 			 margin: 0px 10px;}
 
 /* End link related elements */
-
-
-
-
-
-		
