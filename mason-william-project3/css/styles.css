@@ -18,7 +18,7 @@ body {
 	width: 98%;
   	background-color: #2C5EA8;
   	margin: 0% auto 0% auto;
-  	border-width: 1%;
+  	border-width: 10px;
   	border-style: solid;
   	border-color: #fff;
   	box-shadow: 0 0 50px #666666;
@@ -186,7 +186,7 @@ h3[id] {
 	width: 95%;
 	height: 20%;
 	border: double;
-	border-width: .5%;
+	border-width: 5px;
 	float: left;
 	margin:0% 0% 1.5% 0%;
 }
@@ -220,7 +220,7 @@ h3[id] {
 
 #footer {
 	width: 100%;
-	color:fff;
+	color: #fff;
 	float: left;
 	background-image: url("../images/fishy.jpg");
 	background-size: 33% 125%;
