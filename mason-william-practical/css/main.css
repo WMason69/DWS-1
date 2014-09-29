@@ -1,0 +1,131 @@
+/*------ Main Styles -----*/
+body {
+	margin: 0 auto;
+	padding: 0;
+	font: .75em/1.5em Helvetica, Arial, sans-serif;
+	color: #797267;
+	width: 960px;
+	background: #797267;
+}
+
+/*----- Header Styles -----*/
+
+header {
+	width: 890px;
+	padding: 0px 35px;
+	height: 210px;
+	background-image: url("../images/header-bg.jpg");
+	overflow: auto;
+}
+
+h1	{	
+	width: 317px;
+	height: 71px;
+	position:relative;
+	top: 45px;
+	left: 34px;
+	float: left;
+	background: no-repeat;
+	background-image: url("../images/logo.gif");
+}
+	
+h1 a	{
+	visibility: hidden;
+}
+	
+	
+/*----- Navigational Elements -----*/
+
+nav {
+	width: 277px;
+	float: right;
+	clear:none;
+	position: relative;
+	right: 80px;
+	top: 70px;
+}
+	
+li {
+	display: inline;
+}
+
+ul li #current	{
+	color: #BF3102;
+	font-weight: bold;
+}
+a:link {
+	color: #423B2E;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 3px;
+}
+
+a:visited {
+	color: #000;
+}
+
+a:hover {
+	color:#BF3102;
+	font-weight: bold;
+}
+
+a:active {
+	color: #BF3102;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/*----- Main Content -----*/
+
+#content {
+	width: 890px;
+	padding: 0px 35px;
+	background-image: url("../images/main-content-bg.jpg");
+	overflow: auto;
+}
+	
+p	{
+	margin: 0px 0px 12px 0px;
+}
+
+	
+#banner {
+	width: 890px;
+	height: 220px;
+	margin: 0px auto 25px;
+	background-image: url("../images/banner.jpg");
+}
+
+section {
+	width: 250px;
+	height: auto;
+	padding: 0px 0px 45px 34px;
+	float: left;
+	background: no-repeat;
+	background-position: left bottom;
+	background-image: url("../images/page-flip.gif");
+}
+
+h2	{
+	font-size: 1.5em;
+	color: #423B2E;
+	width: 250px;
+	padding: 0px 0px 10px 0px;
+	border-bottom-style: solid;
+	border-width: thin;
+}
+
+footer {
+	width: 960px;
+	height: 77px;
+	color: #423B2E;
+	font-size: .917em;
+	text-align: center;
+	margin: 0px 0px 25px 0px;
+	padding: 92px 0px 0px 0px;
+	background: no-repeat;
+	background-image: url("../images/footer-bg.jpg");
+	clear: both;
+}
