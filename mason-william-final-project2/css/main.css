@@ -7,7 +7,7 @@
 /* Start layout elements */
 
 body {font-family: Roboto, sans-serif;
-	  font-weight: light;
+	  font-weight: normal;
 	  background-color: rgba(190, 161, 82, 0.75);
 	  margin:0px;
 }
