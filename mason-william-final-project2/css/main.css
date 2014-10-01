@@ -15,12 +15,13 @@ body {font-family: Roboto, sans-serif;
 #wrapper {
 	  width: 960px;
   	  background-color: rgb(51, 102, 153);
-  	  margin: 0px auto;
+  	  margin: 0px auto 75px;
   	  border-width: 10px;
   	  border-style: solid;
   	  border-color: #fff;
   	  box-shadow: 0 0 20px #fff;
   	  border-radius: 20px;
+  	  padding: 0px 0px 20px 0px;
 }
 
 h1 {
@@ -89,6 +90,10 @@ ol {
 	border-radius: 10px 10px 0px 0px;
 }
 
+figure	{
+	display: block;
+}
+
 /* End presentation elements */
 			 
 			 
@@ -104,7 +109,7 @@ a:link {
 	color: #FF4900;
 	text-decoration: underline;
 	font-weight: normal;
-	padding: 5px 0px;
+	padding: 0px 5px;
 	margin: 0px auto;
 }
 
@@ -121,6 +126,7 @@ a:hover {
 	background-color: rgb(204,204,204);
 	text-decoration: none;
 	color: #336699;
+	padding: 0px 5px;
 }
 
 a:active {
@@ -137,6 +143,13 @@ a:active {
 
 #primary_nav ul li {
 	display: inline;
+	margin: 0px 25px;
+	text-align: center;
+}
+
+#top_page	{
+	text-align: center;
+	color: #fff;
 	margin: 0px auto;
 }
 
