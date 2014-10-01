@@ -1,0 +1,143 @@
+/* Webfonts Begin */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:900,500,400);
+
+/* Webfonts Finish */
+
+/* Start layout elements */
+
+body {font-family: Roboto, sans-serif;
+	  font-weight: light;
+	  background-color: rgba(190, 161, 82, 0.75);
+	  margin:0px;
+}
+
+#wrapper {
+	  width: 960px;
+  	  background-color: rgb(51, 102, 153);
+  	  margin: 0px auto;
+  	  border-width: 10px;
+  	  border-style: solid;
+  	  border-color: #fff;
+  	  box-shadow: 0 0 20px #fff;
+  	  border-radius: 20px;
+}
+
+h1 {
+	margin: 10px auto 25px 20px;
+	text-shadow: 5px 3px #336699;
+	color: #fff;
+	font-style: normal;
+	font-size: 400%;
+	letter-spacing: .10em;
+	text-align: center;
+}
+	
+h2[id] {
+	margin: 10px auto 10px 20px;
+	color: #fff;
+	font-family: Roboto, sans-serif;
+	font-weight: normal;
+}
+
+h3 {
+	margin: 0px auto 10px 20px;
+	color: hsla(25, 83%, 50%, 0.95);
+	font-weight: normal;
+}
+
+p {
+	padding: 0px 20px;
+   	color: #ffffff;
+	line-height: 1.2em;
+   	text-indent: 20px;
+   	text-align: justify;
+}
+
+ul	{
+	color: #fff;
+	display: block;
+	line-height: 1.2em;
+	padding: 20px;
+	margin: 0px 50px;
+	list-style-type: square;
+	width: 860px;
+	text-align: justify;
+	
+}
+
+ol {
+	display: block;
+	color: #fff;
+	width: 860px;
+	margin: 0px 50px;
+	line-height: 1.3em;
+	list-style-type: lower-alpha;
+	text-align: justify;
+}
+
+/* End layout elements */
+
+
+/* Begin presentation elements */
+
+#header {
+	background-color: rgb(20, 204, 71);
+	width: 960px;
+	margin: 0px auto 40px auto;
+	padding: 10px 0px;
+	border-radius: 10px 10px 0px 0px;
+}
+
+/* End presentation elements */
+			 
+			 
+
+/* Begin link related elements */
+
+a p {
+	color: #fff;
+	text-decoration: underline;
+}
+
+a:link {
+	color: #FF4900;
+	text-decoration: underline;
+	font-weight: normal;
+	padding: 5px 0px;
+	margin: 0px auto;
+}
+
+a:focus	{
+	color:#e96e16;
+}
+
+a:visited {
+	color: #000;
+}
+
+a:hover {
+	color:#000;
+	background-color: rgb(204,204,204);
+	text-decoration: none;
+	color: #336699;
+}
+
+a:active {
+	color: #fff;
+	background-color: #F2AE2F;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+#primary_nav	{
+	margin: 0px 0px 0px 40px; 
+	width: 860px;
+}
+
+#primary_nav ul li {
+	display: inline;
+	margin: 0px auto;
+}
+
+/* End link related elements */
